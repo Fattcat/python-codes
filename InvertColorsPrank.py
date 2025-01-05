@@ -29,7 +29,7 @@ def display_image():
     count += 1
 
     # Po 8 zobrazeniach (4 normálne a 4 inverzné) ukončiť program
-    if count < 9:
+    if count < 20:
         root.after(300, display_image)
     else:
         root.quit()
